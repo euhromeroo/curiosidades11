@@ -3,37 +3,125 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curiosidades do mundo</title>
+    <title>Gostinho Brasileiro</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+
+    <!-- MENU -->
     <header>
-     <h1>Curiosidades do mundo</h1>
-     <nav>
-        <ul>
-            <li><a href="#">Início</a></li>
-            <li><a href="#">Curiosidades</a></li>
-            <li><a href="#">Galeria</a></li>
-            <li><a href="#">Contato</a></li>
-            <li><a href="#">Fale conosco</a></li>
-        </ul>
-     </nav>
+        <div class="logo">
+            <img src="imagens/logo.png" alt="Logo Gostinho Brasileiro">
+            <h1>Gostinho Brasileiro</h1>
+        </div>
+
+        <nav>
+            <a href="#quem-somos">Quem Somos</a>
+            <a href="#localizacao">Localização</a>
+            <a href="#comidas">Comidas</a>
+            <a href="#metas">Metas e Visão</a>
+            <a href="#precos">Preços</a>
+            <a href="#galeria">Galeria</a>
+            <a href="#contato">Contato</a>
+        </nav>
     </header>
-    
-    <main class=".galeria">
 
-    <a href="energia.html"></a>
-    <video width="250" height="250" controls>
-    <source src="1Vza.mp4" type="video/mp4">
-    </video>
-    <div class="manchete">
-    Você sabia? 
-    Tartarugas
-    </div>
-    <div class="descricao">curiosidade</div>
-    <p> o sexo dos filhotes de tartarugas marinhas é determinado pela temperatura do ninho, com temperaturas mais altas geralmente produzindo fêmeas e temperaturas mais baixas, machos.</p>
+    <!-- BANNER -->
+    <section class="banner">
+        <h2>O verdadeiro sabor do Brasil em cada pedaço!</h2>
+    </section>
 
-    </main>
+    <!-- QUEM SOMOS -->
+    <section id="quem-somos" class="secao">
+        <h2>Quem Somos</h2>
+        <p>
+            A <strong>Gostinho Brasileiro</strong> é uma doceria dedicada a trazer os sabores típicos do Brasil
+            para perto de você. Trabalhamos com receitas tradicionais, ingredientes selecionados e muito amor
+            em cada preparo.
+        </p>
+    </section>
+
+    <!-- LOCALIZAÇÃO -->
+    <section id="localizacao" class="secao">
+        <h2>Nossa Localização</h2>
+        <p>Estamos localizados no coração da sua cidade, oferecendo conforto e praticidade para nossos clientes.</p>
+        <iframe 
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.703902601289!2d-46.662325!3d-23.581207!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zMjPCsDM0JzUyLjQiUyA0NsKwMzknNDQuNCJX!5e0!3m2!1spt-BR!2sbr!4v000000000"
+            width="100%" height="300" style="border:0;" allowfullscreen loading="lazy">
+        </iframe>
+    </section>
+
+    <!-- COMIDAS -->
+    <section id="comidas" class="secao">
+        <h2>Nossas Comidas</h2>
+        <ul class="lista-comidas">
+            <li>Brigadeiro artesanal</li>
+            <li>Beijinho cremoso</li>
+            <li>Quindim</li>
+            <li>Pudim tradicional</li>
+            <li>Coxinha doce</li>
+            <li>Trufas variadas</li>
+        </ul>
+    </section>
+
+    <!-- METAS E VISÃO -->
+    <section id="metas" class="secao">
+        <h2>Metas e Visão</h2>
+        <p><strong>Missão:</strong> Proporcionar momentos doces e especiais com produtos de alta qualidade.</p>
+        <p><strong>Visão:</strong> Ser referência em doces brasileiros artesanais na região.</p>
+        <p><strong>Valores:</strong> Amor pelo que fazemos, qualidade, tradição e respeito ao cliente.</p>
+    </section>
+
+    <!-- PREÇOS -->
+    <section id="precos" class="secao">
+        <h2>Preços</h2>
+        <table>
+            <tr>
+                <th>Produto</th>
+                <th>Preço</th>
+            </tr>
+            <tr>
+                <td>Brigadeiro tradicional</td>
+                <td>R$ 3,00</td>
+            </tr>
+            <tr>
+                <td>Pudim inteiro</td>
+                <td>R$ 25,00</td>
+            </tr>
+            <tr>
+                <td>Trufa gourmet</td>
+                <td>R$ 6,00</td>
+            </tr>
+            <tr>
+                <td>Caixa com 12 brigadeiros</td>
+                <td>R$ 30,00</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- GALERIA -->
+    <section id="galeria" class="secao">
+        <h2>Galeria de Fotos</h2>
+        <div class="galeria">
+            <img src="imagens/doce1.jpg" alt="Doce 1">
+            <img src="imagens/doce2.jpg" alt="Doce 2">
+            <img src="imagens/doce3.jpg" alt="Doce 3">
+            <img src="imagens/loja1.jpg" alt="Loja 1">
+        </div>
+    </section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="secao">
+        <h2>Contato</h2>
+        <p>Email: <strong>contato@gostinhobrasileiro.com</strong></p>
+        <p>Telefone: <strong>(00) 00000-0000</strong></p>
+        <p>Instagram: <strong>@gostinhobrasileiro</strong></p>
+    </section>
+
+    <!-- RODAPÉ -->
+    <footer>
+        <p>© 2025 Gostinho Brasileiro — Todos os direitos reservados.</p>
+    </footer>
 
 </body>
 </html>
