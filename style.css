@@ -2,6 +2,12 @@ body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     background: #fff8f0;
+    text-align: center; /* Centraliza todo o texto */
+}
+
+/* Centraliza também listas, tabelas e conteúdos */
+h1, h2, h3, p, li, table, footer, header nav a {
+    text-align: center;
 }
 
 header {
@@ -12,9 +18,12 @@ header {
     align-items: center;
 }
 
+/* Centraliza logo + título no cabeçalho */
 header .logo {
     display: flex;
     align-items: center;
+    justify-content: center;
+    text-align: center;
 }
 
 header .logo img {
@@ -22,8 +31,12 @@ header .logo img {
     margin-right: 15px;
 }
 
+header nav {
+    display: flex;
+    gap: 10px;
+}
+
 header nav a {
-    margin: 0 10px;
     text-decoration: none;
     font-weight: bold;
     color: #5a3200;
@@ -46,14 +59,17 @@ header nav a:hover {
     padding: 40px 20px;
     max-width: 900px;
     margin: auto;
+    text-align: center;
 }
 
-.lista-comidas li {
-    margin: 8px 0;
+.lista-comidas {
+    list-style: none;
+    padding: 0;
 }
 
 table {
-    width: 100%;
+    width: 80%;
+    margin: auto;
     border-collapse: collapse;
 }
 
@@ -67,6 +83,7 @@ table th, table td {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 15px;
+    margin-top: 20px;
 }
 
 .galeria img {
