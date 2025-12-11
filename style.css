@@ -107,3 +107,22 @@ footer {
     padding: 15px;
     font-weight: bold;
 }
+
+.disk-entrega {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #016259;
+    color: #fff;
+    padding: 15px 20px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+    z-index: 1000;
+    transition: background 0.3s;
+}
+
+.disk-entrega:hover {
+    background-color: #028f7f;
+}
