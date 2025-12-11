@@ -63,8 +63,18 @@ header nav a:hover {
 }
 
 .lista-comidas {
-    list-style: none;
+    display: flex;       /* coloca tudo em uma única linha */
+    gap: 20px;           /* espaço entre cada item */
+    list-style: none;    /* remove bolinhas */
     padding: 0;
+}
+
+.lista-comidas li {
+    display: flex;         /* texto + imagem lado a lado */
+    flex-direction: column; /* Se quiser texto em cima e imagem abaixo, remova esta linha */
+    align-items: center;  
+    font-size: 18px;
+    font-weight: bold;
 }
 
 table {
