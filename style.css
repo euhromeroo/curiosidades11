@@ -1,7 +1,7 @@
 body {
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
-    background: #FFCDF7;
+    background: white;
     text-align: center; /* Centraliza todo o texto */
 }
 
@@ -48,7 +48,7 @@ header nav a:hover {
 
 .banner {
     background: url('imagens/banner.jpg') center/cover no-repeat;
-    color: #FFCDF7;
+    color: white;
     text-align: center;
     padding: 120px 20px;
     font-size: 2rem;
